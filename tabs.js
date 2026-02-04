@@ -1,13 +1,4 @@
 
-document.addEventListener("DOMContentLoaded", function() {
-  var defaultTab = document.getElementById("defaultOpen");
-  if (defaultTab) {
-    defaultTab.click();
-  } else {
-    console.warn("defaultOpen element not found!");
-  }
-});
-
 function openTab(evt, tabName) {
   var i, tabcontent, tablinks;
   tabcontent = document.getElementsByClassName("tabcontent");
@@ -22,5 +13,13 @@ function openTab(evt, tabName) {
   evt.currentTarget.className += " active";
 }
 
-// Get the element with id="defaultOpen" and click on it
-document.getElementById("defaultOpen").click();
+
+document.addEventListener("DOMContentLoaded", function() {
+  var defaultTab = document.getElementById("defaultOpen");
+  if (defaultTab) {
+    defaultTab.click();
+  } else {
+    console.warn("defaultOpen element not found!");
+  }
+});
+
