@@ -1,4 +1,3 @@
-<script>
 
 function openTab(evt, tabName) {
   var i, tabcontent, tablinks;
@@ -16,6 +15,3 @@ function openTab(evt, tabName) {
 
 // Get the element with id="defaultOpen" and click on it
 document.getElementById("defaultOpen").click();
-
-</script>
-   
