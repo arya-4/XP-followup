@@ -13,13 +13,4 @@ function openTab(evt, tabName) {
   evt.currentTarget.className += " active";
 }
 
-
-document.addEventListener("DOMContentLoaded", function() {
-  var defaultTab = document.getElementById("defaultOpen");
-  if (defaultTab) {
-    defaultTab.click();
-  } else {
-    console.warn("defaultOpen element not found!");
-  }
-});
-
+document.getElementById("defaultOpen").click();
