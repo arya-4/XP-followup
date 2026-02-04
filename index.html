@@ -69,28 +69,8 @@ body {font-family: Arial;}
   <p>participant id + date of surgery + submit button </p>
 </div>
 
-<script>
-function openTab(evt, tabName) {
-  var i, tabcontent, tablinks;
-  tabcontent = document.getElementsByClassName("tabcontent");
-  for (i = 0; i < tabcontent.length; i++) {
-    tabcontent[i].style.display = "none";
-  }
-  tablinks = document.getElementsByClassName("tablinks");
-  for (i = 0; i < tablinks.length; i++) {
-    tablinks[i].className = tablinks[i].className.replace(" active", "");
-  }
-  document.getElementById(cityName).style.display = "block";
-  evt.currentTarget.className += " active";
-}
-
-// Get the element with id="defaultOpen" and click on it
-document.getElementById("defaultOpen").click();
-</script>
-
-
-<!-- HELP 
-  <!-- tabs -->    
+<!--  
+<!-- tabs -->    
       <div class = "tabs"> 
         <button class = "tab_button_reminders" data-tab active = "reminders"> Reminders </button>
         <button class = "tab_button_input" data-tab = "input"> Input Participant </button>
@@ -106,8 +86,8 @@ document.getElementById("defaultOpen").click();
         <input id ="Sx_input" type = "date" />
         <button id="add_button"> add participant </button>
     </main> 
-    -->
-          
+
+-->          
       <script 
         src="tabs.js"> 
       </script>
