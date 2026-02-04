@@ -1,4 +1,13 @@
 
+document.addEventListener("DOMContentLoaded", function() {
+  var defaultTab = document.getElementById("defaultOpen");
+  if (defaultTab) {
+    defaultTab.click();
+  } else {
+    console.warn("defaultOpen element not found!");
+  }
+});
+
 function openTab(evt, tabName) {
   var i, tabcontent, tablinks;
   tabcontent = document.getElementsByClassName("tabcontent");
