@@ -22,7 +22,7 @@ body {font-family: FreeMono;}
 
 /* Change background color of buttons on hover */
 .tab button:hover {
-  background-color: #ddd;
+  background-color: #9BE8BA;
 }
 
 /* Create an active/current tablink class */
