@@ -5,5 +5,8 @@
 
 <!--element.addEventListener(button, function, options);-->
 
-  const Sx_date = new Date (input)
+ <!-- const Sx_date = new Date (input) -->
+
+  const STORAGEKEY = "remind_test"; 
+
 
